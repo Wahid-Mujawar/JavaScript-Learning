@@ -5,11 +5,11 @@
 //We can change the information later
 
 
-var firstName = "Javascript"; //declare a variable
+var firstName = "Var Keyword"; //declare a variable
 console.log(firstName); //use a variable
 
 //change value
-firstName = "ES6:2015";
+firstName = "var_keyword";
 console.log(firstName);
 
 
@@ -30,6 +30,8 @@ console.log(firstName);
 
 //cannot uses spaces
 //first Name (invalid)
+//firstName (valid) //camel case writing
+//first_name (valid) //snake case writing
 
 //convention start with uppercase or lowercase
 //Example
