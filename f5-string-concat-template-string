@@ -1,14 +1,29 @@
 //concat 2 strings
 
-let firstName = "Javascript"
-let year = "ES6:2015"
-let fullName = firstName + " " + year
-console.log(fullName)
+let firstName = "Javascript";
+let year = "ES6:2015";
+let fullName = firstName + " " + year;
+console.log(fullName);
 
 
 //when concat 2 numbers
-firstName = "10"
-year = "18"
-fullName = +firstName + +year
-console.log(fullName)
-console.log(typeof fullName)
+firstName = "10";
+year = "18";
+fullName = +firstName + +year;
+console.log(fullName);
+console.log(typeof fullName);
+
+
+//template string
+
+//normal string 
+let myName = "JavaScript";
+let myYear  = 2015;
+
+let aboutMe = "My name is " + myName + " and my most valuable update year is " + myYear;
+console.log(aboutMe);
+
+//with template string reduces efforts for + , spaces
+
+let aboutMyself = `My name is ${myName} and my most valuable update year is ${myYear}`;
+console.log(aboutMyself);
