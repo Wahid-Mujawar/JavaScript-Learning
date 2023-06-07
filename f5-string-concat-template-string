@@ -1,0 +1,14 @@
+//concat 2 strings
+
+let firstName = "Javascript"
+let year = "ES6:2015"
+let fullName = firstName + " " + year
+console.log(fullName)
+
+
+//when concat 2 numbers
+firstName = "10"
+year = "18"
+fullName = +firstName + +year
+console.log(fullName)
+console.log(typeof fullName)
